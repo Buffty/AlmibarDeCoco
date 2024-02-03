@@ -1,0 +1,27 @@
+.footer_style{
+    height: 75px;
+    background-color: rgba(26, 26, 26, 0.701);
+}
+.grid{
+    margin: 0px !important
+}
+.icons_container i{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+.icons_container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.title_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.created_for_footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.header_style{
+    height: 75px;
+    background-color: rgba(26, 26, 26, 0.701);
+}
+.icon_header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
