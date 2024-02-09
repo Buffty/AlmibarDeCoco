@@ -1,5 +1,16 @@
 {
     "main": {
         "header": "Title"
+    },
+    "header":{
+        "menu": {
+            "home": "Home",
+            "news": "News",
+            "recipes": "Recipes",
+            "aboutUs": "About me"
+        }
+    },
+    "home":{
+        
     }
 }

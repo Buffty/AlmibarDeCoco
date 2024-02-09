@@ -7,13 +7,54 @@
     justify-content: start;
     align-items: center;
 }
+.user_container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menu_select{
+    border-bottom: 1px solid;
+}
 .menu_header{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.user_container{
-    display: flex;
+.menu_header .p-menubar .p-focus .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover{
+    background-color: transparent !important;
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header .p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
+    background-color:  rgba(26, 26, 26, 0.701);
+}
+
+.menu_header .p-menubar .p-menuitem.p-highlight > .p-menuitem-content span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header{
+    padding: 0px !important
+}
+.menu_header .p-menubar{
+    background-color: transparent !important;
+    border: 0px solid !important;
+    width: 100%;
+}
+.menu_header .p-menubar ul{
+    width: 100%;
     justify-content: end;
-    align-items: center;
+}
+.menu_header .p-menubar li span{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu_header .p-menubar li{
+    margin-left: 5%;
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.118);
+    border-right: 1px solid rgba(255, 255, 255, 0.118);
 }

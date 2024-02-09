@@ -1,5 +1,33 @@
 {
     "main": {
         "header": "Titulo"
+    },
+    "header":{
+        "menu": {
+            "home": "Inicio",
+            "news": "Novedades",
+            "recipes": "Recetas",
+            "aboutUs": "Sobre mí"
+        }
+    },
+    "home":{
+        
+    },
+    "recipes":{
+        "menu":{
+            "category": "Categoria",
+            "categories": {
+                "food": "Comidas",
+                "dinner": "Cenas",
+                "breakfast": "Desayuno/Merienda",
+                "snacks": "Snacks",
+                "sauces": "Salsas",
+                "drinks": "Bebidas",
+                "salade": "Salado",
+                "sweets": "Dulces"
+            },
+            "news": "Lo más nuevo",
+            "olds": "Lo más antiguo"
+        }
     }
 }

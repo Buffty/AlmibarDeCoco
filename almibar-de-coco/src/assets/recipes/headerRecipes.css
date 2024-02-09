@@ -1,0 +1,74 @@
+.menu_header_recipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_header_recipes .icon_angle{
+    color: white;
+}
+.menu_header_recipes .p-menuitem-active{
+    background-color: grey;
+    color: white
+}
+.menu_header_recipes .p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
+    background-color: #e9ecef;
+}
+.menu_header_recipes .p-menubar .p-menuitem.p-highlight > .p-menuitem-content span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menuitem.p-highlight > .p-menuitem-content i{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menubar-root-list .p-focus > .p-menuitem-content span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menubar-root-list .p-focus > .p-menuitem-content i{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover i{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes{
+    padding: 0px !important
+}
+.menu_header_recipes .p-menubar{
+    background-color: transparent !important;
+    border: 0px solid !important;
+    width: 100%;
+}
+.menu_header_recipes .p-menubar .p-submenu-list{
+    background-color: rgb(69, 68, 68);
+    border: 0px solid !important;
+    width: 100%;
+}
+.menu_header_recipes .p-menubar .p-menuitem.p-highlight .p-submenu-list > .p-menuitem-content {
+    background-color: #e9ecef;
+}
+.menu_header_recipes .p-menubar .p-menuitem.p-highlight .p-submenu-list > .p-menuitem-content span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-focus .p-menubar-root-list .p-submenu-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar .p-menubar-root-list .p-submenu-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover span{
+    color: rgb(26, 26, 26) !important;
+}
+.menu_header_recipes .p-menubar ul{
+    width: 100%;
+    justify-content: center;
+}
+.menu_header_recipes .p-menubar li span{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+.menu_header_recipes .p-menubar li{
+    margin-left: 1%;
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.118);
+    border-right: 1px solid rgba(255, 255, 255, 0.118);
+}

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
+import InitRecipesView from '@/views/recipes/InitRecipesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,7 +12,15 @@ const router = createRouter({
       params: {
         header: true
       }
-    }
+    },
+    {
+      path: '/recipes',
+      name: 'recipes',
+      component: InitRecipesView,
+      params: {
+        header: true
+      }
+    },
     
   ]
 })
