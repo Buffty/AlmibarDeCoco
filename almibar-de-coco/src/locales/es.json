@@ -28,6 +28,11 @@
             },
             "news": "Lo más nuevo",
             "olds": "Lo más antiguo"
+        },
+        "tabs":{
+            "recipe": "Receta",
+            "ingredients": "Ingredientes",
+            "make": "Preparación"
         }
     }
 }

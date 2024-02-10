@@ -1,0 +1,34 @@
+.imgRecetas .p-galleria-item-container{
+    background-color: rgba(0, 0, 0, 0.608);
+    border-top-left-radius: 2.5%;
+    border-top-right-radius: 2.5%;
+}
+.imgPrincipal{
+    width:400px; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: center; 
+    display:block;
+    border-top-left-radius: 1.5%;
+    border-top-right-radius: 1.5%;
+}
+.tabsRecipes .p-accordion-header span, .tabsRecipes .p-accordion-content p{
+    color: rgb(55, 54, 54)
+}
+.imgThumbnail{
+    width: 75px; 
+    height: 115px;
+    display:block;
+    border-radius: 5%;
+    box-shadow: 0px 0px 4px 6px #6f6f6f;
+}
+.recipeLayout{
+    margin-left:5%;
+    margin-right: 5%;
+}
+.paginationRecipes{
+
+}
+.paginationRecipes p, .paginationRecipes h5{
+    color:black
+}
