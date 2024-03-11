@@ -1,3 +1,32 @@
+.cardRecipe{
+    width: 25rem; 
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 3px 3px 20px black;
+    border-radius: 2.5%;
+}
+.cardRecipe .p-card-title{
+    text-align: center;
+}
+.cardRecipe .p-card-title span{
+    font-size: 29px;
+}
+.cardRecipe .p-card-content p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 19px;
+}
+.cardRecipe .p-card-content{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.titleCardRecipe{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(244, 110, 132) !important
+}
 .imgRecetas .p-galleria-item-container{
     background-color: rgba(0, 0, 0, 0.608);
     border-top-left-radius: 2.5%;
@@ -26,9 +55,42 @@
     margin-left:5%;
     margin-right: 5%;
 }
-.paginationRecipes{
-
-}
-.paginationRecipes p, .paginationRecipes h5{
+.paginationRecipes p, .paginationRecipes h5, .paginationRecipes span, .paginationRecipes h1{
     color:black
+}
+.containerRecipes{
+    background-image: url('/fondo-list-recipes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerRecipes .paginationRecipes{
+    background: transparent;
+}
+.containerRecipes .p-paginator{
+    background: transparent;
+}
+.containerRecipes .p-paginator svg{
+    color: white
+}
+.containerRecipes .gridRecipes{
+    background-color: #000000a3;
+}
+.titleListRecipe h1{
+    color:white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: auto;
+    width: 25%;
+    padding: 5px;
+    border-radius: 2.5%;
+}
+.btnCardRecipe span{
+    color:white;
+}
+.btnCardRecipe{
+    border-radius: 7.5%;
+    border-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
 }

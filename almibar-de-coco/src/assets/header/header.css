@@ -58,3 +58,6 @@
     border-left: 1px solid rgba(255, 255, 255, 0.118);
     border-right: 1px solid rgba(255, 255, 255, 0.118);
 }
+.menu_header p, .menu_header span{
+    color: rgb(231, 228, 228);
+}
